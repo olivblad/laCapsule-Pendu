@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pendu</title>
+</head>
+<body>
+    <h1 id='title'>Pendu</h1>
+    <section class="guessContainer">
+        <input id= 'guessWord' type="text" placeholder="word to guess">
+        <button id='btn-guess' type='button'>Validate Your Word</button>
+    </section>
+    <section class="scoreContainer">
+        <p id="scoreTxt">Score : <span id="score">10</span></p>
+    </section>
+    <section class="gameContainer">
+        <div id="hiddenWord"></div>
+    </section>
+    <section class="guesserContainer">
+        <input type="text" placeholder='Try a Letter' id="guessingArea">
+        <button id="btn-guessing" type='button'>Try</button>
+    </section>
+    <section class="statusContainer"></section>
+    <script type="text/javascript" src='./script.js'></script>
+</body>
+</html>
